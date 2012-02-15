@@ -5,15 +5,6 @@ public class josephus {
 		System.out.println(queue(10, 3));
 	}
 
-	/**
-	 * 最后出队的人
-	 * 
-	 * @param total
-	 *            总的人数
-	 * @param num
-	 *            第几号出队
-	 * @return
-	 */
 	public static int queue(int total, int num) {
 		int count = total;
 		int index = 0;
